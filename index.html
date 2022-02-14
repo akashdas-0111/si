@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>University Website Design - Easy tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img id="newlo" src="images/newlogo.jpeg" /></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <select id="voiceList"></select>
+              <input id="txtInput" placeholder="Type something" />
+              <button id="btnSpeak">Speak!</button>
+            </li>
+            <li>
+              <label for="Speech Recognition"></label>
+              <input
+                type="text"
+                name=""
+                id="speechToText"
+                placeholder="Speak Something"
+                onclick="record()"
+              />
+              <button type="button" id="sbuton" onClick="findString(fn())">
+                Search
+              </button>
+
+              <!-- <p id="output"></p> -->
+            </li>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>WeHelp</h1>
+        <p>
+          An approach towards happy and a better world <br>Happy faces with enthusiasm...
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+
+    <section class="course">
+      <h1>Courses we offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum,
+        at.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+            perferendis eaque quaerat rerum? Error reprehenderit, iste accusamus
+            ullam quam harum?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+            perferendis eaque quaerat rerum? Error reprehenderit, iste accusamus
+            ullam quam harum?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
+            perferendis eaque quaerat rerum? Error reprehenderit, iste accusamus
+            ullam quam harum?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="campus">
+      <h1>Our Global campus</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ad?</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/london.png" alt="london" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/newyork.png" alt="london" />
+          <div class="layer">
+            <h3>NEWYORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/washington.png" alt="london" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, rem.
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>World class library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+            necessitatibus.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="" />
+          <h3>Largest playground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+            necessitatibus.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>tasty food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+            necessitatibus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h1>What our students says</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+        molestias.
+      </p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/user1.jpg" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              eos qui voluptatibus dolore beatae suscipit sint unde accusantium
+              eveniet, excepturi sequi ab at sit laboriosam dignissimos dolorem
+              vitae debitis quaerat aperiam. Esse minus qui odit nesciunt
+              similique quam autem. Eum nam molestias quis pariatur voluptate
+              est magni velit fugit odio!
+            </p>
+            <h3>Zendya</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/user2.jpg" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              eos qui voluptatibus dolore beatae suscipit sint unde accusantium
+              eveniet, excepturi sequi ab at sit laboriosam dignissimos dolorem
+              vitae debitis quaerat aperiam. Esse minus qui odit nesciunt
+              similique quam autem. Eum nam molestias quis pariatur voluptate
+              est magni velit fugit odio!
+            </p>
+            <h3>Tom Holland</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h1>Enroll for our various online courses</h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione cumque
+        at corrupti <br />voluptatem aliquam, rerum quos similique hic iste.
+        Aspernatur.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Team Acheivers</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
